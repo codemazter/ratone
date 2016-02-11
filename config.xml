@@ -37,7 +37,7 @@
     <gap:plugin name="org.apache.cordova.file-transfer" />
     <gap:plugin name="org.apache.cordova.file" />
     <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="com.hiraqui.ringtone" source="plugins.cordova.io" />
+    <gap:plugin name="com.hiraqui.ringtone" />
     <gap:plugin name="io.github.pwlin.cordova.plugins.pdialog"/>
     <gap:plugin name="com.vliesaputra.deviceinformation"/>
 
