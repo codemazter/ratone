@@ -18,15 +18,15 @@
     <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 
-    <plugin name="com.hiraqui.ringtone" source="npm"/>
-    <plugin name="com.vliesaputra.deviceinformation" source="pgb"/>
-    <plugin name="io.github.pwlin.cordova.plugins.pdialog" source="pgb"/>
-    <plugin name="org.apache.cordova.device" source="pgb"/>
-    <plugin name="org.apache.cordova.dialogs" source="pgb"/>
-    <plugin name="org.apache.cordova.file" source="pgb"/>
-    <plugin name="org.apache.cordova.file-transfer" source="pgb"/>
-    <plugin name="org.apache.cordova.media" source="pgb"/>
-    <plugin name="org.apache.cordova.splashscreen" source="pgb"/>
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="com.hiraqui.ringtone" source="npm" />
+    <gap:plugin name="io.github.pwlin.cordova.plugins.pdialog"/>
+    <gap:plugin name="com.vliesaputra.deviceinformation"/>
 
     <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" width="36" height="36" />
     <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" width="48" height="48" />
